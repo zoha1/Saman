@@ -1,0 +1,167 @@
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll.config
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Project_Buddy.pdb
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Antlr3.Runtime.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\EntityFramework.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Infrastructure.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Http.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Optimization.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Providers.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Razor.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\WebGrease.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\EntityFramework.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Http.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.Razor.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.xml
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.csprojResolveAssemblyReference.cache
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.dll
+E:\Notes\7th semester\EAD\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.pdb
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll.config
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Project_Buddy.pdb
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Antlr3.Runtime.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\EntityFramework.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Http.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Optimization.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Providers.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Razor.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\WebGrease.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\EntityFramework.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Http.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.Razor.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.dll
+C:\Users\Ali\Desktop\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.pdb
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll.config
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Project_Buddy.pdb
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Antlr3.Runtime.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\EntityFramework.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Infrastructure.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Http.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Optimization.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Providers.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Razor.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\WebGrease.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\EntityFramework.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Http.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.Razor.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.xml
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.csprojResolveAssemblyReference.cache
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.dll
+D:\Study\FYP\Prototype I\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.pdb
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll.config
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Project_Buddy.pdb
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Antlr3.Runtime.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\EntityFramework.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Http.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Optimization.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Providers.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Razor.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\WebGrease.dll
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\EntityFramework.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Http.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.Razor.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ali\Desktop\New folder\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.pdb
+E:\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll.config
+E:\Project_Buddy\Project_Buddy\bin\Project_Buddy.dll
+E:\Project_Buddy\Project_Buddy\bin\Project_Buddy.pdb
+E:\Project_Buddy\Project_Buddy\bin\Antlr3.Runtime.dll
+E:\Project_Buddy\Project_Buddy\bin\EntityFramework.dll
+E:\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Infrastructure.dll
+E:\Project_Buddy\Project_Buddy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.dll
+E:\Project_Buddy\Project_Buddy\bin\Ninject.dll
+E:\Project_Buddy\Project_Buddy\bin\Ninject.Web.Common.dll
+E:\Project_Buddy\Project_Buddy\bin\Ninject.Web.Mvc.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Http.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Optimization.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Providers.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Razor.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.dll
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.dll
+E:\Project_Buddy\Project_Buddy\bin\WebActivatorEx.dll
+E:\Project_Buddy\Project_Buddy\bin\WebGrease.dll
+E:\Project_Buddy\Project_Buddy\bin\Ninject.xml
+E:\Project_Buddy\Project_Buddy\bin\Ninject.Web.Common.xml
+E:\Project_Buddy\Project_Buddy\bin\Ninject.Web.Mvc.xml
+E:\Project_Buddy\Project_Buddy\bin\EntityFramework.xml
+E:\Project_Buddy\Project_Buddy\bin\Newtonsoft.Json.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Net.Http.Formatting.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Http.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Http.WebHost.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Mvc.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.Razor.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Deployment.xml
+E:\Project_Buddy\Project_Buddy\bin\System.Web.WebPages.Razor.xml
+E:\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.csprojResolveAssemblyReference.cache
+E:\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.dll
+E:\Project_Buddy\Project_Buddy\obj\Debug\Project_Buddy.pdb

@@ -1,0 +1,35 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "About";
+}
+<style>
+    body {
+        background-image: url("/Images/about.jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    }
+</style>
+
+<h1 style="color:white">Project Buddy</h1>
+<h2 style="color:whitesmoke; font-size:14pt">About</h2>
+
+<form id="form" name="form" action="/About/About" method="post">
+	<div id="block" style="margin-left:100px">
+        <p id="p1">
+            <br />
+         <span style="color:white" >Managing a project might be a very difficult task to anyone if he/she is new in this run.<br />
+		Collaborating with colleagues at the right time, assigning them tasks and to keep the timely<br />
+		 progress record when you are far away from your team, can be a very challenging task for any <br />
+		person. <br /></span>   
+            
+            <span style="color:whitesmoke">
+                Sharing ideas and suggestions with your team via messaging is very time consuming and less expressive,<br />
+                and via calls can be a burden on your pocket. Moreover, it is the necessity of a project to <br />
+                share documents among the team members. Indeed, Internet is the solution. But one has to manage <br />
+                various accounts on multiple applications, websites and social networks to resolve all of the above discussed <br />
+                problems. <br />
+                We are proposing a solution to all these hectic problems in this mobile application named as "Project Buddy".<br />
+                This is a web interface of our Android Application.<br /></span>
+</p>
+	</div>
+</form>

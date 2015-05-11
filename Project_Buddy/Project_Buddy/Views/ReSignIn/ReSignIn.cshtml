@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "ReSignIn";
+}
+
+<style>
+    body {
+        background-image: url("/Images/images(2).jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    }
+</style>
+
+
+
+
+
+<script src="~/Scripts/signup.js"></script>
+<link href="~/Content/signup.css" rel="stylesheet" />
+<link href="~/Content/MainFile.css" rel="stylesheet">
+
+<h1>Project Buddy</h1>
+<h3>Sign In</h3>
+<br />
+<p style="color:red;left:50%; font-size:16pt">User Id or Password is Incorrect!!</p>
+<br />
+<form id="form" name="form" action="/SignIn/validation" method="post">
+    <div id="block">
+
+        <input type="text" name="email" id="name" placeholder="Email Id" required /> >
+
+        <input type="password" name="password" id="password" placeholder="Password" required /> >
+
+    </div>
+    
+    <input type="submit" class="btn" name="submit" value="Sign In" />
+
+</form>
+
+<table align="center">
+    <tr>
+        <td>
+            <a href="/SignUp/SignUp">Sign Up</a>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="#">Forgot Password?</a></td>
+    </tr>
+</table>

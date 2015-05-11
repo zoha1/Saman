@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "SearchGroup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        background-image: url("/Images/robot.jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    }
+</style>
+<div id="header">
+    <a href="/MainPage/MainPage/@ViewBag.userId" style="padding-right:5px;color:white">Profile</a><a href="/CreateGroup/CreateGroup/@ViewBag.userId" style="padding-right:5px;color:white">Create Group</a><a href="/ViewGroups/ViewGroups/@ViewBag.userId" style="padding-right:5px;color:white">View Groups</a><a href="/DeleteGroup/DeleteGroup/@ViewBag.userId" style="padding-right:5px;color:white">Delete Group</a> <a href="/Logout/Logout" style="right:20px;position:absolute;color:white">Logout</a>
+</div>
+<h1 style="color:Black">Project Buddy</h1>
+<h2 style="color:lightblue; font-size:14pt">Search Group</h2>
+<form id="form" name="form" action="/SearchGroup/search/@ViewBag.userId" method="post">
+    <br><br><br>
+    <div style="margin-top:5%; margin-left:15%" id="block">
+
+        <span style="color:gray; font-size:14pt">Search Group:</span><input type="text" name="search" id="search" placeholder="Group Name" required />
+        <label id="search" for="search"></label>
+        <br /><br />
+        <input type="submit" id="SearchGroup" style="margin-left:11%;" class="btnnormal" name="SearchGroup" value="Search Group" />
+
+    </div>
+</form>

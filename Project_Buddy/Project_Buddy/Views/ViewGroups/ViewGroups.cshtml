@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "ViewGroups";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        background-image: url("/Images/search.jpg");
+        background-color: #ffffff;
+        background-size: cover;
+    }
+</style>
+<div id="header">
+    <a href="/MainPage/MainPage//@ViewBag.userId" style="padding-right:5px;color:white">Profile</a> <a href="/CreateGroup/CreateGroup/@ViewBag.userId" style="padding-right:5px;color:white">Create Group</a><a href="/SearchGroup/SearchGroup/@ViewBag.userId" style="padding-right:5px;color:white">Search Group</a><a href="/DeleteGroup/DeleteGroup/@ViewBag.userId" style="padding-right:5px;color:white">Delete Group</a> <a href="/Logout/Logout" style="right:15px;position:absolute;color:white">Logout</a>
+</div>
+    <h1>Project Buddy</h1>
+    <h2 class="textcreategroup">View Groups</h2>
+    

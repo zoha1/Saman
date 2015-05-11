@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Hi!";
+}
+
+
+<script src="~/Scripts/Profile.js"></script>
+<link href="~/Content/Profile.css" rel="stylesheet" />
+<form class="form" name="form-CreateGroup" action="/Profile/CreateGroup" method="post">
+    <div>
+
+        <input type="submit" id="CreateGroup" name="CreateGroup" value="Create Group" /><p> <span id="comments">Create your own groups.</span></p>
+
+    </div>
+</form>
+
+<form class="form" name="form-SearchGroup" action="/Profile/SearchGroup" method="post">
+    <div>
+
+        <input type="submit" id="SearchGroup" name="SearchGroup" value="Search Group" /><p> <span id="comments">Search Groups to join them.</span></p>
+
+    </div>
+</form>
+
+<form class="form" name="form-ViewGroups" action="/Profile/ViewGroups" method="post">
+    <div>
+
+        <input type="submit" id="ViewGroup" name="ViewGroup" value="View Groups" /><p> <span id="comments">View Groups you have already joined.</span></p>
+
+    </div>
+</form>
+
+<form class="form" name="form-DeleteGroup" action="/Profile/DeleteGroup" method="post">
+    <div>
+
+        <input type="submit" id="DeleteGroup" name="DeleteGroup" value="Delete Group" /><p> <span id="comments">Delete Groups you are managing.</span></p>
+
+    </div>
+</form>
+

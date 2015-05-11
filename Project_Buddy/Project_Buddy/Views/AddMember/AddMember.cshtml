@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "AddMember";
+}
+
+<!DOCTYPE html>
+<style>
+    body {
+        background-image: none;
+        background-color: white;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Group View</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/css/simple-sidebar.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="wrapper" style="color:white">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Group Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/AddMember/AddMember">Add Member</a>
+                </li>
+                <li>
+                    <a href="#">Delete Member</a>
+                </li>
+                <li>
+                    <a href="/DeleteGroup/DeleteGroup">Delete Group</a>
+                </li>
+                <li>
+                    <a href="#">Progress</a>
+                </li>
+                <li>
+                    <a href="#">Call</a>
+                </li>
+                <li>
+                    <a href="#">Chat</a>
+                </li>
+                <li>
+                    <a href="#">Find</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Add Member html interface -->
+                        <h1 style="color:Black">Project Buddy</h1>
+                        <h2 style="color:lightblue; font-size:14pt">Add Member</h2>
+
+                        <form id="form" name="form" action="/AddMember/SearchMember" method="post">
+                            <br><br><br>
+                            <div style="margin-top:5%; margin-left:15%" id="block">
+
+                                <span style="color:gray; font-size:14pt">Search Member:</span><input type="text" name="addmember" id="addmember" placeholder="Member's Name" required />
+                                <label id="search" for="search"></label>
+                                <br /><br />
+                                <input type="submit" id="SearchMember" style="margin-left:11%;" class="btnnormal" name="SearchMember" value="SearchMember" />
+
+                            </div>
+                        </form>
+                        <!-- Add Member html interface ends-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <a href="#menu-toggle" class="btn btndefault" id="menu-toggle">Toggle Menu</a>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="~/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/js/bootstrap.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+</html>
+

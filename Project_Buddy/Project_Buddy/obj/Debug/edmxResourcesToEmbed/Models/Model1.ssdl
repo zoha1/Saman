@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="file_id" />
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="file_id" Type="int" Nullable="false" />
+    <Property Name="group_id" Type="int" Nullable="false" />
+    <Property Name="type" Type="nchar" MaxLength="10" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="group_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="visibility" Type="varchar" MaxLength="50" />
+    <Property Name="group_name" Type="varchar" MaxLength="50" />
+    <Property Name="date_created" Type="varchar" MaxLength="50" />
+    <Property Name="uId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Manager">
+    <Key>
+      <PropertyRef Name="manager_id" />
+    </Key>
+    <Property Name="manager_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="gId" Type="int" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="member_id" />
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="member_id" Type="int" Nullable="false" />
+    <Property Name="group_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="join_date" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Progress">
+    <Key>
+      <PropertyRef Name="progress_id" />
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="progress_id" Type="int" Nullable="false" />
+    <Property Name="group_id" Type="int" Nullable="false" />
+    <Property Name="task_completed" Type="varchar" MaxLength="50" />
+    <Property Name="task_assigned" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="request_id" />
+    </Key>
+    <Property Name="request_id" Type="int" Nullable="false" />
+    <Property Name="group_id" Type="int" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="request_status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Task">
+    <Key>
+      <PropertyRef Name="task_id" />
+    </Key>
+    <Property Name="task_id" Type="int" Nullable="false" />
+    <Property Name="group_id" Type="int" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+    <Property Name="lock" Type="varchar" MaxLength="50" />
+    <Property Name="start_time" Type="varchar" MaxLength="50" />
+    <Property Name="end_time" Type="varchar" MaxLength="50" />
+    <Property Name="start_date" Type="varchar" MaxLength="50" />
+    <Property Name="end_date" Type="varchar" MaxLength="50" />
+    <Property Name="title" Type="varchar" MaxLength="50" />
+    <Property Name="manager_id" Type="int" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="mobileNo" Type="varchar" MaxLength="50" />
+    <Property Name="country" Type="varchar" MaxLength="50" />
+    <Property Name="city" Type="varchar" MaxLength="50" />
+    <Property Name="image" Type="image" />
+    <Property Name="location" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_File_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="File" Type="Self.File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="File" Type="Self.File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_To_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Group" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="uId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Manager_To_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Manager" Type="Self.Manager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="Manager">
+        <PropertyRef Name="gId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Manager_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Manager" Type="Self.Manager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Manager">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Member" Type="Self.Member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="Member">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Member" Type="Self.Member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Member">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Progress_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Progress" Type="Self.Progress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="Progress">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_Manager">
+    <End Role="Manager" Type="Self.Manager" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manager">
+        <PropertyRef Name="manager_id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="manager_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="File" EntityType="Self.File" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Group" EntityType="Self.Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Manager" EntityType="Self.Manager" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Progress" EntityType="Self.Progress" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Task" EntityType="Self.Task" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_File_Group" Association="Self.FK_File_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_User" Association="Self.FK_File_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_To_User" Association="Self.FK_Group_To_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Group" EntitySet="Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Manager_To_Group" Association="Self.FK_Manager_To_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Manager" EntitySet="Manager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Manager_User" Association="Self.FK_Manager_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Manager" EntitySet="Manager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_Group" Association="Self.FK_Member_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Member" EntitySet="Member" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_User" Association="Self.FK_Member_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Member" EntitySet="Member" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Progress_Group" Association="Self.FK_Progress_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Progress" EntitySet="Progress" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Group" Association="Self.FK_Request_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_User" Association="Self.FK_Request_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_Group" Association="Self.FK_Task_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Task" EntitySet="Task" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_Manager" Association="Self.FK_Task_Manager">
+      <End Role="Manager" EntitySet="Manager" />
+      <End Role="Task" EntitySet="Task" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_User" Association="Self.FK_Task_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Task" EntitySet="Task" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

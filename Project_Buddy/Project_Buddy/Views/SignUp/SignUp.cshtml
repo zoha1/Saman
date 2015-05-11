@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Sign Up</title>
+<style type="text/css" >
+    h3 {
+        font-family: Calibri;
+        font-size: 22pt;
+        font-style: normal;
+        font-weight: bold;
+        color: LightBlue;
+        
+        text-decoration: underline;
+    }
+    body {
+        background-image: url("/Images/BackGround1.png");
+        background-color: #cccccc;
+    }
+    table {
+        font-family: Calibri;
+        color: lightblue;
+        font-size: 14pt;
+        font-style: normal;
+    }
+table.inner{border: 0px}
+</style>
+</head>
+ 
+<body>
+    <h1>Project Buddy</h1>
+<h3>SIGN UP</h3>
+<form  method="POST" action="/SignUp/registration">
+
+<table align="center" cellpadding = "10">
+ 
+<!-----  Name ---------------------------------------------------------->
+<tr>
+<td>NAME</td>
+<td><input type="text" name="name" maxlength="60" required />
+<span class="comment">(max 60 characters a-z and A-Z)</span>
+</td>
+</tr>
+
+ <!----- Email Id ---------------------------------------------------------->
+<tr>
+        <td>EMAIL ID</td>
+        <td><input type="text" name="email" maxlength="100" required /></td>
+</tr>
+ 
+<!----- Password ---------------------------------------------------------->
+<tr>
+<td>PASSWORD</td>
+<td><input type="Password" name="password" maxlength="30" required />
+<span class="comment">(max 30 characters)</span>
+</td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+    <input type="text" name="mobileNumber" maxlength="13" required />
+<span class="comment">(13 digit number)</span>
+</td>
+</tr>
+ 
+<!----- Country ---------------------------------------------------------->
+<tr>
+        <td>Country</td>
+        <td>
+            <input type="text" name="Country" maxlength="30" required />
+            <span class="comment">(max 30 characters a-z and A-Z)</span>
+        </td>
+</tr>
+ 
+<!----- City ---------------------------------------------------------->
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" required />
+<span class="comment">(max 30 characters a-z and A-Z)</span>
+</td>
+</tr>
+
+    <!----- Location ---------------------------------------------------------->
+
+
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" class="btnnormal" value="Sign Up">
+
+</td>
+</tr>
+</table>
+ 
+</form>
+   
+        
+        <table align="center">
+
+            <tr>
+                <td><a href="/SignIn/SignIn">Already have an Account</a></td>
+            </tr>
+
+         
+        </table>
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿
+@{
+    
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+ 
+}
+
+
+ 
+
+
+<script src="~/Scripts/Profile.js"></script>
+<link href="~/Content/Profile.css" rel="stylesheet" />
+<div id="header">
+    <a href="/CreateGroup/CreateGroup/@ViewBag.userId" style="padding-right:5px;color:white">Create Group</a><a href="/ViewGroups/ViewGroups/@ViewBag.userId" style="padding-right:5px;color:white">View Groups</a><a href="/SearchGroup/SearchGroup/@ViewBag.userId" style="padding-right:5px;color:white">Search Group</a><a href="/DeleteGroup/DeleteGroup/@ViewBag.userId" style="padding-right:5px;color:white">Delete Group</a> <a href="/Logout/Logout" style="right:15px;position:absolute;color:white">Logout</a>
+</div>
+<h1>Project Buddy</h1>
+<h2 class="textcreategroup">Welcome To Your Profile @ViewBag.UserName</h2> 
+
+    <form class="form" name="form-CreateGroup" action="/CreateGroup/CreateGroup/@ViewBag.userId" method="post">
+    <div>
+
+        <input type="submit" id="slidedown" class="btnnormal" name="CreateGroup" value="Create Group" /><p> <span class="comment">Create your own groups.</span></p>
+        <div style="margin-left:300px">
+            <img style="TOP:35px; LEFT:300px; WIDTH:50%; HEIGHT:20%" src="/Images/about01.jpg">
+        </div>
+
+    </div>
+</form>
+
+    <form class="form" name="form-SearchGroup" action="/SearchGroup/SearchGroup/@ViewBag.userId" method="post">
+    <div>
+
+        <input type="submit" id="SearchGroup" class="btnnormal" name="SearchGroup" value="Search Group" /><p> <span class="comment">Search Groups to join them.</span></p>
+        <div style="margin-left:300px">
+            <img style="TOP: 35px; LEFT: 300px; WIDTH: 50%; HEIGHT: 20%" src="/Images/robot.jpg">
+        </div>
+    </div>
+</form>
+
+    <form class="form" name="form-ViewGroups" action="/ViewGroups/ViewGroups/@ViewBag.userId" method="post">
+    <div>
+
+        <input type="submit" id="ViewGroup" class="btnnormal" name="ViewGroup" value="View Groups" /><p> <span class="comment">View Groups you have already joined.</span></p>
+        <div style="margin-left:300px">
+            <img style="TOP: 35px; LEFT: 300px; WIDTH: 50%; HEIGHT: 20%" src="/Images/search.jpg" class="shakeimage" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this);top.focus()" onclick="top.focus()">
+        </div>
+    </div>
+</form>
+
+    <form class="form" name="form-DeleteGroup" action="/DeleteGroup/DeleteGroup/@ViewBag.userId" method="post">
+    <div>
+
+        <input type="submit" id="DeleteGroup" class="btnnormal" name="DeleteGroup" value="Delete Group" /><p> <span class="comment">Delete Groups you are managing.</span></p>
+        <div style="margin-left:300px">
+            <img style="TOP: 35px; LEFT: 300px; WIDTH: 50%; HEIGHT: 20%" src="/Images/delete.jpg" class="shakeimage" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this);top.focus()" onclick="top.focus()">
+        </div>
+    </div>
+</form>
+
+
+
+

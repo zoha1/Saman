@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Create Group";
+}
+<style>
+    body {
+        background-image: url("/Images/about01.jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    }
+
+    a {
+    }
+</style>
+<div id="header">
+    <a href="/MainPage/MainPage/@ViewBag.userId" style="padding-right:5px;color:white">Profile</a><a href="/ViewGroups/ViewGroups/@ViewBag.userId" style="padding-right:5px;color:white">View Groups</a><a href="/SearchGroup/SearchGroup/@ViewBag.userId" style="padding-right:5px;color:white">Search Group</a><a href="/DeleteGroup/DeleteGroup/@ViewBag.userId" style="padding-right:5px;color:white">Delete Group</a> <a href="/Logout/Logout" style="right:15px;position:absolute;color:white">Logout</a>
+</div>
+<h1 style="color:Black">Project Buddy</h1>
+<h2 style="color:lightblue; font-size:14pt">Create Group</h2>
+
+<div style="margin-left:5%; margin-top:3%;">
+    <form class="form" name="form-CreateGroup" action="/GroupView/Create/@ViewBag.userId" method="post">
+
+
+        <span class="textcreategroup">NAME</span>
+        <input type="text" name="groupname" maxlength="40" placeholder="Group Name" required/><span class="comment">(Max 40 characters A-Z and a-z)</span>
+
+        <br />
+        <span class="textcreategroup">Visibility:</span><select name="visibility">
+            <option value="Public">Public</option>
+            <option value="Private">Private</option>
+        </select>
+    
+    <br><br>
+    
+        
+        <input type="submit" class="btnnormal" name="CreateGroup" value="Create Group" style="margin-left:82px;" />
+        </form>
+    </div>
+
+        
+
+
+
+

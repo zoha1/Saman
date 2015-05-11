@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewBag.Title = "DeleteGroup";
+}
+<style>
+    body {
+        background-image: url("/Images/delete.jpg");
+        background-color: #cccccc;
+        background-size:cover;
+    }
+</style>
+<body>
+    <div id="header">
+        <a href="/MainPage/MainPage/@ViewBag.userId" style="padding-right:5px;color:white">Profile</a> <a href="/CreateGroup/CreateGroup/@ViewBag.userId" style="padding-right:5px;color:white">Create Group</a><a href="/ViewGroups/ViewGroups/@ViewBag.userId" style="padding-right:5px;color:white">View Groups</a><a href="/SearchGroup/SearchGroup/@ViewBag.userId" style="padding-right:5px;color:white">Search Group</a> <a href="/Logout/Logout" style="right:20px;position:absolute;color:white">Logout</a>
+    </div>
+        <h1 style="color:white">Project Buddy</h1>
+        <h2 style="color:whitesmoke; font-size:14pt">Delete Group</h2>
+    <form id="form" name="form" action="/DeleteGroup/Delete/@ViewBag.userId" method="post">
+        <br><br><br>
+        <div style="margin-top:5%; margin-left:15% " id="block">
+
+            <span style="color:white; font-size:14pt">Delete Group:</span><input type="text" name="delete" id="delete" placeholder="Group Name" required />
+            <label id="search" for="search"></label>
+            <br /><br />
+            <input type="submit" id="SearchGroup" style="margin-left:11%;" class="btnnormal" name="DeleteGroup" value="Delete Group" />
+        </div>
+    </form>
+</body>
